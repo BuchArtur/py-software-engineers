@@ -2,6 +2,7 @@ class SoftwareEngineer:
     def __init__(self, name: str) -> None:
         self.name = name
         self.skills: list[str] = []
+# l
 
     def learn_skill(self, skill: str) -> None:
         self.skills.append(skill)
